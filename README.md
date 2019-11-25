@@ -9,20 +9,20 @@ We have used Keras to build a LSTM to predict stock prices using historical stoc
 * Price history data of some companies
 
 # Model architechture
-![](Result\model.jpg)
+![](Result/model.jpg)
 
 # Output 
 The closing price of each company for a day
 
 # Performance matrix
 For a company, we are going to measure
-            `error=  (predicted price-actual price) / acttual price`
+            `error=  (predicted price-actual price) / actual price`
 
 as our performance metric.
 We then compute the average of all such errors for each company as our combined performance metric.
 
 # Result
-![](Result\prediction-vs-real.jpg)
+![](Result/prediction%20vs%20real.jpg)
 
 For more detailed description, please check the reports in result folder.
 
